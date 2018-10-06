@@ -117,8 +117,9 @@ $(document).ready(function() {
         items:1,
         loop:true,
         autoplay:true,
-        autoplayHoverPause: true,        
-        smartSpeed:500,          
+        autoplaySpeed:3000,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: false,                  
         margin:30,
         dots: true
     });
@@ -268,7 +269,7 @@ $(document).ready(function() {
         function init() {
             var mapOptions = {
                 zoom: 11,
-                center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                center: new google.maps.LatLng(13.0827, 80.2707), // chennai
                 styles: [{
                     "featureType": "water",
                     "elementType": "geometry",
@@ -388,11 +389,14 @@ $(document).ready(function() {
             };
             var mapElement = document.getElementById('map');
             var map = new google.maps.Map(mapElement, mapOptions);
+            var customIcon = "img/logo7.png"
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(40.6700, -73.9400),
+                position: new google.maps.LatLng(13.0500, 80.2824),
                 map: map,
-                title: 'Snazzy!'
+                title: 'Snazzy!',
+                icon: customIcon
             });
+
         }
     }
 

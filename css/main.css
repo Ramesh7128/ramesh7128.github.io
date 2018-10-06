@@ -2054,12 +2054,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a {
-    padding: 0 8px 0px 8px;
+    padding: 0 30px 0px 30px;
     text-decoration: none;
     display: inline-block;
     color: #fff;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
     outline: none
 }
@@ -2336,12 +2336,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content {
-    margin-top: 100px
+    margin-top: 180px
 }
 
 @media (max-width: 1024px) {
     .banner-content {
-        margin-top: 100px
+        margin-top: 180px
     }
 }
 
