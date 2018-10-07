@@ -2668,6 +2668,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 
+@media (max-width: 414px) {
+    .gallery-area .filters li {
+        max-width: 100% !important
+    }
+}
+
 .gallery-area .filters li:last-child {
     border-right: none
 }
