@@ -389,14 +389,32 @@ $(document).ready(function() {
             };
             var mapElement = document.getElementById('map');
             var map = new google.maps.Map(mapElement, mapOptions);
-            var customIcon = "img/logo7.png"
-            var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(13.0500, 80.2824),
+            var customIcon = "img/logo7.png";
+            var marker;
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(13.0383, 80.2209),
                 map: map,
-                title: 'Snazzy!',
+                title: 'West Mambalam',
                 icon: customIcon
             });
-
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(13.0891, 80.2096),
+                map: map,
+                title: 'Anna Nagar',
+                icon: customIcon
+            });
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(12.9654, 80.2461),
+                map: map,
+                title: 'perungudi',
+                icon: customIcon
+            });
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(12.9080, 80.1408),
+                map: map,
+                title: 'Selayur',
+                icon: customIcon
+            });
         }
     }
 

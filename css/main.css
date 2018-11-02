@@ -2225,7 +2225,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-    padding: 120px 0
+    padding: 60px 0
 }
 
 .alert-msg {
@@ -3830,7 +3830,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 15px
 }
 
-.contact-page-area .form-area input, .contact-page-area .form-area textarea {
+.contact-page-area .form-area option {
+    height: 50px
+}
+
+.contact-page-area .form-area input, .contact-page-area .form-area select, .contact-page-area .form-area textarea {
     border-radius: 0;
     font-size: 13px !important
 }
@@ -4032,6 +4036,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight: 300;
     line-height: 1.625em;
     position: relative
+}
+
+.image-circle {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 .img-fluid {
