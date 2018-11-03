@@ -2395,7 +2395,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .menu-area {
-    background: url(../img/reservation-bg.jpg) no-repeat center/cover
+    background: url(../img/food_gallery/menubg1.jpg) no-repeat center/cover
 }
 
 .menu-area .overlay-bg {
@@ -4056,7 +4056,4 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight: 300;
     font-size: 40px;
 
-}
-.menu-shuffle {
-    font-size:150px;
 }
